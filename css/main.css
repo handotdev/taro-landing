@@ -740,7 +740,7 @@ footer {
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   .about {
-    padding: 15rem 0; }
+    padding: 4rem 0; }
     .about__sub-header {
       /* margin: 2rem 12rem 4rem 12rem;  */
       margin-left:10px;
