@@ -523,7 +523,7 @@ body {
   height: 100%; }
 
 body {
-  font: 16px/1.35 "Roboto", sans-serif;
+  font: 16px/1.35 "Proxima Nova", sans-serif;
   color: #302D2F; }
 
 a {
@@ -543,25 +543,25 @@ h3 {
   color: #24355a; }
 
 h1 {
-  font: 3rem/1.2 "Roboto", sans-serif; }
+  font: 3rem/1.2 "Proxima Nova", sans-serif; }
 
 h2 {
-  font: 3rem/1.2 "Roboto", sans-serif; }
+  font: 3rem/1.2 "Proxima Nova", sans-serif; }
 
 h3 {
-  font: 2.2rem/1.2 "Roboto", sans-serif; }
+  font: 2.2rem/1.2 "Proxima Nova", sans-serif; }
 
 @media (min-width: 750px) {
   h1 {
-    font: 4rem/1.1 "Roboto", sans-serif; } }
+    font: 4rem/1.1 "Proxima Nova", sans-serif; } }
 
 @media (min-width: 1000px) {
   h1 {
-    font: 5rem/1.0 "Roboto", sans-serif; }
+    font: 5rem/1.0 "Proxima Nova", sans-serif; }
   h2 {
-    font: 4rem/1.1 "Roboto", sans-serif; }
+    font: 4rem/1.1 "Proxima Nova", sans-serif; }
   h3 {
-    font: 3rem/1.2 "Roboto", sans-serif; } }
+    font: 3rem/1.2 "Proxima Nova", sans-serif; } }
 
 .btn {
   margin-top:2rem;
@@ -571,7 +571,7 @@ h3 {
   padding: 25px 40px;
   color: black;
   text-align: center;
-  font: 1rem/1.6 "Roboto", sans-serif;
+  font: 1rem/1.6 "Proxima Nova", sans-serif;
   font-weight: 100;
   line-height: 0;
   text-decoration: none;
@@ -633,7 +633,7 @@ footer {
   padding: 40px 50px;
   color: white;
   text-align: center;
-  font: 1rem/1.6 "Roboto", sans-serif;
+  font: 1rem/1.6 "Proxima Nova", sans-serif;
   font-weight: 100;
   line-height: 0;
   text-decoration: none;
@@ -647,6 +647,7 @@ footer {
   -webkit-box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2); }
   .icon--grad {
+    border-radius: 32px;
     background-size: 300% 100%;
     background-image: -webkit-gradient(linear, left top, right top, from(#133B8D), color-stop(#6886C5), color-stop(#133B8D), to(#EEBBC3));
     background-image: linear-gradient(to right, #133B8D, #6886C5, #EEBBC3);
@@ -664,7 +665,7 @@ footer {
   }
 
 .logo h1 {
-  font: 1.2rem/1.4 "Roboto", sans-serif;
+  font: 1.2rem/1.4 "Proxima Nova", sans-serif;
   text-transform: lowercase;
   color: #24355a;
   font-weight: 700; }
@@ -727,10 +728,12 @@ footer {
 .features__header {
   color: #24355a;
   text-align: center;
-  margin: 3rem 0 1rem 0; }
+  font-size: 28px;
+  margin: 2rem 0 1rem 0; }
 
 .features__desc {
   text-align: center;
+  font-size: 22px;
   color: #9195a4; }
 
 .taro-logo {
@@ -764,9 +767,9 @@ footer {
   }
 
   .taro-story__desc {
-    color:#98a3b9;
+    color:#9195a4;
     margin-bottom:2rem;
-    font-size:20px;
+    font-size:22px;
     padding-right:10%;
   }
 
@@ -933,12 +936,12 @@ footer {
   margin-top: 50px; }
 
 .top-fold__title {
-  font: 3rem/1.1 "Proxima Nova", sans-serif;
+  font: 3.8rem/1.1 "Proxima Nova", sans-serif;
   color: #6886C5;
   margin-bottom: 0.7rem; }
 
 .top-fold__subtitle {
-  font: 1.2rem/1.4 "Roboto", sans-serif;
+  font: 1.8rem/1.4 "Proxima Nova", sans-serif;
   color: #6886C5;
   margin-bottom: 30px; }
 
@@ -1051,7 +1054,6 @@ footer {
     font-size: 0.75rem; }
 
 .testimonials-about {
-  margin-top: 4rem;
   padding-top: 5rem; }
   .testimonials-about__about {
     text-align: center; }
@@ -1093,7 +1095,7 @@ footer {
 
 
 .footer {
-  margin-top:4rem;
+  margin-top:6rem;
 }
 
 .bottom-fold__title {
