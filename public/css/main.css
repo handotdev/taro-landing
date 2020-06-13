@@ -983,8 +983,8 @@ footer {
       margin-top: 10rem; }
   .iphone__img {
     position: relative;
-    left: 5rem;
-    width: 400px; } }
+    left: 8rem;
+    width: 320px; } }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
